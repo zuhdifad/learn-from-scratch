@@ -1,0 +1,119 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.navbar-container {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 10vh;
+}
+
+.logo {
+    display: flex;
+    height: 15%;
+    background-color: antiquewhite;
+    margin: 0;
+    position: absolute;
+    top : 6%;
+    left: 8%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: tomato;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+}
+
+.main-sales {
+    background-color: antiquewhite;
+    border: none;
+    color: black;
+    padding: 0;
+    text-align: center;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    position: absolute;
+    top : 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button1 {
+    background-color: white;
+    border: none;
+    color: brown;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin 4px 2px;
+    position: absolute;
+    top : 60%;
+    left: 38%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white;
+    border: none;
+    color: brown;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 0;
+    position: absolute;
+    top : 60%;
+    left: 62%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.container-footer {
+height: 1vh;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.h4-footer {
+font-size: 12px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: absolute;
+top: 98%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
